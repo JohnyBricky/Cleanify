@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: Georgia;
+}
+
+body{
+  margin-top: 1%;
+  background: linear-gradient(180deg, hsla(142, 39%, 53%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  color: rgb(0, 0, 0);
+}
+
+.banner{
+  align-items: center;
+  z-index: 999;
+  font-family: Verdana;
+  }
+
+
+.header{
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+  position:relative;
+  position:sticky;
+  top: 0;
+}
+
+/* background css for header */
+.header {
+  border-radius: 10px;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, hsla(141, 73%, 42%, 1) 0%, hsla(141, 100%, 18%, 1) 100%);
+  width: auto;
+  z-index: 999;
+}
+
+.nav{
+  margin-top: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  --bs-nav-link-color: #0dfd6d; 
+}
+
+.nav-link:hover, .nav-link:focus{
+  color: white;
+}
+
+.carousel{
+  margin-top: 5px;
+  z-index: -1;
+}
+
+.footer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: white;
+  background-color: rgba(6, 75, 10, 0.745);
+}
+
+.cprt{
+  margin-top: 5%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10% ;
+  padding-right: 10%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.row > * {    
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  /* padding-right: calc(var(--bs-gutter-x) * 0.5); */
+  /* padding-left: calc(var(--bs-gutter-x) * 0.5); */
+  margin-top: var(--bs-gutter-y);
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.serviceToOffer{
+  margin-top: 1%;
+}
+
+.img-responsive{
+  max-width: 19vw;
+  max-height: 19vw;
+}
+
+.contactInfo{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.aboutUs{
+  align-items: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  color:#000;
+  background-color: #0dfd6d;
+}
+
+.vr{
+  margin: 2px;
+}
+
+.founder{
+  margin-top:10% ;
+}
+
+.aboutUs{
+  z-index: -2;
+}
+
+.txtAds1{
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#textContact{
+  text-align: left;
+}
+
